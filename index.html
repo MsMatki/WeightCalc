@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Weight converter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="Css/style.css" />
+
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <h1 class="display-4 text-center mb-3">Weight Converter</h1>
+        <form action="">
+          <div class="form-group">
+            <input type="number" class="form-control form-control-lg" placeholder="Enter Pounds" id="Input">
+          </div>
+        </form>
+        <div id="output">
+          <div class="card bg-primary mb-2 py-2">
+            <div class="card-block">
+              <h4>Grams:</h4>
+              <div id="gramsOutput"></div>
+            </div>
+          </div>
+          <div class="card bg-success mb-2 py-2">
+            <div class="card-block">
+              <h4>Kilograms:</h4>
+              <div id="KgOutput"></div>
+            </div>
+          </div>
+          <div class="card bg-danger mb-2 py-2">
+            <div class="card-block">
+              <h4>Ounces:</h4>
+              <div id="ozOutput"></div>
+            </div>
+          </div>
+          <div class="card bg-warning mb-2 py-2 text-dark">
+            <div class="card-block pounds">
+              <h4>Pounds:</h4>
+              <div id="lbsOutput"></div>
+            </div>
+          </div>
+        </div>
+        
+      <div class="sellect mt-4">
+        <div class="row mx-auto center-xs center-sm center-md center-lg justify-content-around">
+          <div class="col bg-warning text-dark py-2 text-center my-2 mr-2 line button" data-toggle="tooltip" data-placement="bottom" title="Convert Pounds">
+            <div class="btnLbs">
+              <h4>Pounds</h4>
+            </div>
+          </div>
+          <div class="col bg-success py-2 text-center my-2 mr-2 button" data-toggle="tooltip" data-placement="bottom" title="Convert Kilograms">
+            <div class="btnKg">
+              <h4>Kilograms</h4>
+            </div>
+          </div>
+          <div class="col bg-danger py-2 text-center my-2 mr-2 button" data-toggle="tooltip" data-placement="bottom" title="Convert Ounces">
+            <div class="btnOz">
+              <h4>Ounces</h4>
+            </div>
+          </div>
+          <div class="col bg-primary py-2 text-center my-2 button" data-toggle="tooltip" data-placement="bottom" title="Convert Grams">
+            <div class="btnGram">
+              <h4>Grams</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col bg-secondary py-2 text-center my-2 convertBtn" data-toggle="tooltip" data-placement="bottom" title="Convert">
+        <div class="btnConv">
+          <h4>Convert</h4>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+<script src="Js/script.js"></script>
+</body>
+</html>
