@@ -2,10 +2,10 @@
 
 * Simple weight converter App built with JavaScript
 
-# How To Use 
+## How To Use 
 
-* Enter the number into the the search field, and click convert
+* Enter the number into the search field, and click convert
 
-# External Libraries Used
+## External Libraries Used
 
 * Bootstrap
